@@ -503,7 +503,7 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
 			showW3cNavPerformanceData();
 		}else{				
 			//ADD
-			$('#w3c-nav-iframe').attr('src', "http://github.com/Saturn-Twinfish/MobileBrowserExtension/w3c-nav-bookmarklet.html");
+			$('#w3c-nav-iframe').attr('src', "http://raw.github.com/Saturn-Twinfish/MobileBrowserExtension/master/w3c-nav-bookmarklet.html");
 		}
 	}
 	
