@@ -1,6 +1,6 @@
 javascript:(function(){
 	var w3cnavjs=document.createElement('SCRIPT');
 	w3cnavjs.type='text/javascript';
-	w3cnavjs.src='http://github.com/Saturn-Twinfish/MobileBrowserExtension/bookmarklet.js';
+	w3cnavjs.src='http://raw.github.com/Saturn-Twinfish/MobileBrowserExtension/master/bookmarklet.js';
 	document.getElementsByTagName('head')[0].appendChild(w3cnavjs);
 })();
