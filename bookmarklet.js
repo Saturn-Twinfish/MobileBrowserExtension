@@ -551,7 +551,7 @@ replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
 		}
 		
 		//Add the data as the hash. The iframe will pull the data.
-		$('#w3c-nav-iframe').attr('src', "http://yottaa.github.com/NavigationTimingBookmarklet/w3c-nav-bookmarklet.html#"+JSON.stringify(data));
+		$('#w3c-nav-iframe').attr('src', "http://raw.github.com/Saturn-Twinfish/MobileBrowserExtension/master/w3c-nav-bookmarklet.html#"+JSON.stringify(data));
 	}
 	
     window.w3cNavBookmarklet = w3cNavBookmarklet;
